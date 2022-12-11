@@ -52,6 +52,14 @@ img{
     align-items: center;
 }
 
+.navbar ul li a{
+    transition: .5s;
+}
+
+.navbar ul li a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
 #click, .menu-btn{
     display: none;
 }
@@ -154,6 +162,12 @@ hr{
     margin-top: 40px;
     color: #fff;
     letter-spacing: 0.1rem;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
 }
 
 .section-2{
@@ -203,6 +217,11 @@ hr{
     font-weight: bold;
     color: hsl(240, 100%, 5%);
     margin-top: 10px;
+    transition: .5s;
+}
+
+.head p a:hover{
+    color: hsl(5, 85%, 63%);
 }
 
 @media(max-width: 1440px){
@@ -298,7 +317,7 @@ hr{
 }
 
 @media(max-width: 760px){
-    
+
 /* hamburger menu */
     #list{
         display: block;
