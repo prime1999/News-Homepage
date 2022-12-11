@@ -319,10 +319,6 @@ hr{
 @media(max-width: 760px){
 
 /* hamburger menu */
-    #list{
-        display: block;
-        margin-top: 140px;
-    }
 
     .menu-btn{
         display: block;
@@ -330,6 +326,7 @@ hr{
     }
 
     .navbar ul{
+        padding-top: 140px;
         z-index: 1;
         display: block;
         position: fixed;
